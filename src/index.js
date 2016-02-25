@@ -1,3 +1,5 @@
 const root = document.getElementById('app');
-root.innerHTML = 'hello world';
+const elem = React.createElement('p', null, 'hello world');
+ReactDOM.render(elem, root);
+
 console.log('hello world');
