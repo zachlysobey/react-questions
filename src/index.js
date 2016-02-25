@@ -8,7 +8,5 @@ const App = React.createClass({
   }
 });
 
-
 const elem = React.createElement(App, {name: 'React'});
 ReactDOM.render(elem, root);
-
