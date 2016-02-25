@@ -1,3 +1,5 @@
+/* global React, ReactDOM */
+
 const root = document.getElementById('app');
 
 const App = React.createClass({
