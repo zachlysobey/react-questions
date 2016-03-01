@@ -17,9 +17,12 @@ const App = React.createClass({
   },
   render: function() {
     return (
-      <p>
-        hello {this.props.name} {this.state.secondsElapsed}
-      </p>
+      <div>
+        <h1>React Playground</h1>
+        <p>
+          hello {this.props.name} {this.state.secondsElapsed}
+        </p>
+      </div>
     );
   }
 });
