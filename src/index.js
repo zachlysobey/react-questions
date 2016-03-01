@@ -16,7 +16,11 @@ const App = React.createClass({
     clearInterval(this.interval);
   },
   render: function() {
-    return React.createElement('p', null, 'hello ' + this.props.name + ' ' + this.state.secondsElapsed);
+    return (
+      <p>
+        hello {this.props.name} {this.state.secondsElapsed}
+      </p>
+    );
   }
 });
 
