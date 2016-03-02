@@ -1,13 +1,11 @@
 #!/bin/bash
 set -e 
 
-rm -rf build || exit 0;
-
-npm run build
+npm run clean-build
 
 cd build 
-git init
 
+git init
 git config user.name "Travis CI"
 git config user.email "zlysobey@gmail.com"
 git add .
