@@ -21,7 +21,7 @@ module.exports = {
     },
     plugins: [
       new HtmlWebpackPlugin({
-        title: 'React Playground',
+        title: 'React Questions',
         template: 'src/index.html'
       })
     ]
